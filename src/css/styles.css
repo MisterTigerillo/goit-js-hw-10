@@ -19,8 +19,10 @@ body {
   margin-bottom: 16px;
 }
 .country-list {
+  width: 25%;
   margin-left: 8px;
   padding: 0;
+  background-color: lightyellow;
 }
 
 .country-list__item {
@@ -31,11 +33,16 @@ body {
 }
 .country-list__flag {
   display: block;
+  margin: auto 0;
   margin-right: 10px;
-  width: 60px;
-  height: 40px;
+  width: 40px;
+  height: 30px;
 }
 
+.country-info {
+  width: 25%;
+  background-color: lightsteelblue;
+}
 .country-info__item {
   list-style: none;
 }
